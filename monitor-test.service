@@ -1,0 +1,5 @@
+[Unit]
+Description=Мониторинг процесса test
+
+[Service]
+ExecStart=/usr/local/bin/monitor_test.sh

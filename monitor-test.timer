@@ -1,0 +1,10 @@
+[Unit]
+Description=Запуск мониторинга процесса test каждую минуту
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
